@@ -1,0 +1,206 @@
+*{
+    scroll-behavior: smooth;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+/* body{
+    height: 3000px;
+} */
+/* start navbar */
+nav{
+    position: fixed;
+}
+.navbar-light .navbar-brand{
+    font-size: 25px;
+    font-weight: bold;
+    left: 0;
+}
+#right{
+    right: 0;
+}
+.navbar-light .navbar-brand span{
+    color: #fa1e0e;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #fa1e0e;
+    border-bottom: #fa1e0e 3px solid;
+}
+/* end navber */
+
+/* start head */
+.head{
+    overflow: hidden;
+    margin-top: 50px;
+}
+img{
+    height: 500px;
+    width: 100%;
+    height: 500px;
+}
+.p{
+    margin-top: 40px;
+}
+h3{
+    font-weight: bold;
+    color: #fa1e0e;
+    
+}
+h4{
+    margin-top: 10px;
+    line-height: 1.5;
+}
+.btn-danger{
+    background-color: #fa1e0e;
+}
+.btn-danger:hover{
+    background-color: white;
+    color: #fa1e0e;
+    border: #fa1e0e 1px solid;
+}
+/* end head */
+
+/* start about */
+.about{
+    overflow: hidden;
+    margin-top: 50px;
+    
+}
+.about h2{
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+span{
+    color: #fa1e0e;
+}
+.about h3{
+    margin-top: 40px;
+    font-weight: bold;
+    color: #fa1e0e;
+}
+.about p{
+    line-height: 1.5;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+img{
+    width: 100%;
+}
+
+/* end about */
+
+/* start feat */
+.feat{
+    margin-top: 50px;
+}
+.feat h2{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.feat span{
+    color: #fa1e0e;
+}
+.feat img{
+    width: 100%;
+}
+.feat svg:not(:root).svg-inline--fa{
+    color: #fa1e0e;
+    font-weight: bold;
+    font-size: 25px;
+}
+.feat .f{
+    margin-top: 20px;
+}
+.feat .feat1{
+    margin-bottom: 30px;
+}
+.feat .feat1 h4{
+    font-weight: bold;
+}
+
+/* end feat */
+
+/* start product */
+.product{
+    margin-top: 50px;
+}
+.product h2{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.product span{
+    color: #fa1e0e;
+}
+/* end product */
+
+/* start test */
+.test{
+    margin-top: 50px;
+}
+.test h2{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.test span{
+    color: #fa1e0e;
+}
+.test img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.test h4{
+    color: #fa1e0e;
+    font-weight: bold;
+}
+.carousel-indicators{
+    top: 280px;
+}
+.carousel-indicators li{
+    background-color: #fa1e0e;
+}
+/* end test */
+
+/* start footer */
+.footer{
+    background-color: #fa1e0e;
+    color: white;
+    margin-top: 50px;
+    height: 100%;
+}
+.foot{
+    padding-top: 20px;
+}
+svg:not(:root).svg-inline--fa{
+    font-size: 20px;
+}
+/* end footer */
+
+/* start scroll */
+.scroll-top{
+    color: white;
+    background-color: #fa1e0e;
+    position: fixed;
+    bottom: 5px;
+    right: 10px;
+    height: 40px;
+    width: 50px;
+    text-align: center;
+    z-index: 9999;
+    cursor: pointer;
+    display: none;
+}
+svg:not(:root).svg-inline--fa{
+    font-size: 40px;
+}
+/* end scroll */
